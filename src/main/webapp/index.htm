@@ -260,14 +260,24 @@
                 font-size: 60px
             }
         </style>
+        <script>
+            var imagePath = 'developer';
+            function switchImage(s) {
+                imagePath = s == 0 ? 'developer' : 'factory';
+                changeImage('demo1.jpg');
+            }
+            function changeImage(fn) {
+                document.getElementById('mainPhoto').src = 'images/' + imagePath + '/' + fn;
+            }
+        </script>
         <div class="center">
             <p>Camera Inspection Expert</p>
             <div class="grid jc-center ai-center fs-body2 sm:fd-column">
-                <a class="grid--cell bc-orange-400 ba fc-orange-400 bg-white d:bg-black-900 py12 px24 bar-sm js-scroll-link js-gps-track" data-gps-track="product_homepage.hero.click({ cta: 'For developers' })" href="#demo_ancor" data-ga="[&quot;home page&quot;,&quot;for developers click&quot;,&quot;hero banner&quot;,null,null]">
-                    For developers
+                <a class="grid--cell bc-orange-400 ba fc-orange-400 bg-white d:bg-black-900 py12 px24 bar-sm js-scroll-link js-gps-track" data-gps-track="product_homepage.hero.click({ cta: 'For developers' })" href="#demo_ancor" onclick="switchImage(0);">
+                    For developer
                 </a>
-                <a class="grid--cell ml8 sm:ml0 sm:mt8 fc-white d:fc-black-900 bg-orange-400 py12 px24 bar-sm js-scroll-link js-gps-track" data-gps-track="product_homepage.hero.click({ cta: 'For businesses' })" href="#demo_ancor" data-ga="[&quot;home page&quot;,&quot;for businesses click&quot;,&quot;hero banner&quot;,null,null]">
-                    For businesses
+                <a class="grid--cell ml8 sm:ml0 sm:mt8 fc-white d:fc-black-900 bg-orange-400 py12 px24 bar-sm js-scroll-link js-gps-track" data-gps-track="product_homepage.hero.click({ cta: 'For businesses' })" href="#demo_ancor" onclick="switchImage(1);">
+                    &nbsp;&nbsp;For factory&nbsp;&nbsp;
                 </a>
             </div>
         </div>
@@ -286,13 +296,13 @@
     <center>
         <table border="1" width="100">    
             <td style="padding: 10px">
-                <img src="images/circle.png" width="20" onclick="document.getElementById('mainPhoto').src = 'images/developer/demo1.jpg'; this.src = 'images/circle2.png'">
+                <img src="images/circle.png" width="20" onclick="changeImage('demo1.jpg'); this.src = 'images/circle2.png'">
             </td>
             <td style="padding: 10px">
-                <img src="images/circle.png" width="20" onclick="document.getElementById('mainPhoto').src = 'images/developer/demo2.jpg'; this.src = 'images/circle2.png'">
+                <img src="images/circle.png" width="20" onclick="changeImage('demo2.jpg'); this.src = 'images/circle2.png'">
             </td>
             <td style="padding: 10px">
-                <img src="images/circle.png" width="20" onclick="document.getElementById('mainPhoto').src = 'images/developer/demo3.jpg'; this.src = 'images/circle2.png'">
+                <img src="images/circle.png" width="20" onclick="changeImage('demo3.jpg'); this.src = 'images/circle2.png'">
             </td>
         </table>
     </center>
