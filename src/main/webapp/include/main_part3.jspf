@@ -1,0 +1,171 @@
+<%@ page pageEncoding="UTF-8" %>
+<table>
+    <td valign="top" align="center" style="padding:10px">
+        <div id="p-pricing-grid-basic" class="grid--cell d-flex fd-column wmn3 pt2 pb16">            
+            <div class="mt32 sm:mt0 h100 p24 bg-white d:p-bg-dark-tint ba bc-black-075 bar-lg bs-sm fs-body2 d-flex fd-column">
+                <h2 class="px8 py4 as-start bar-sm bg-black-150 fc-black-750 fs-body3 p-ff-roboto-slab">
+                    方案 A
+                </h2>
+                <p class="h32 mb24">
+                    單人版/每日
+                </p>
+
+                <div class="bb bc-black-075 pb24 mb24 grid">
+                    <div class="grid--cell">
+                        <div class="p-ff-roboto-slab-bold fs-headline2 p-font-smooth lh-xs pt12 mb6 ws-nowrap">
+                            <span class="js-billed-yearly">
+                                NT. 199
+                            </span>
+                            <span class="js-billed-monthly d-none">$7 USD</span>
+                        </div>
+                        <div class="fc-black-350 fs-body2">
+                            per perspn / day        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="d-flex mb12 ">
+                    <div class="mr12"><svg aria-hidden="true" class="svg-icon iconCalendar" width="18" height="18" viewBox="0 0 18 18"><path d="M14 2h1a2 2 0 012 2v11a2 2 0 01-2 2H3a2 2 0 01-2-2V4c0-1.1.9-2 2-2h1V0h2v2h6V0h2v2zM3 6v9h12V6H3zm2 2h2v2H5V8zm0 3h2v2H5v-2zm3 0h2v2H8v-2zm3 0h2v2h-2v-2zm0-3h2v2h-2V8zM8 8h2v2H8V8z"></path></svg></div>
+                    <div>每日</div>
+                </div>
+
+                <div class="d-flex mb12 ">
+                    <div class="mr12"><svg aria-hidden="true" class="svg-icon iconBullhorn" width="18" height="18" viewBox="0 0 18 18"><path d="M16 1a1 1 0 00-1 1v.38L5.3 6A2 2 0 004 7.9v2.22a2 2 0 001 1.74v1.65a3.5 3.5 0 006.87.95L15 15.63V16a1 1 0 102 0V2a1 1 0 00-1-1zM6.6 12.47l3.76 1.42a1.9 1.9 0 01-3.76-.39v-1.03zM2 6a1 1 0 00-1 1v4a1 1 0 102 0V7a1 1 0 00-1-1z"></path></svg></div>
+                    <div>加密狗 Usb dongle one set</div>
+                </div>
+
+                <div class="d-flex mb12 ">
+                    <div class="mr12"><svg aria-hidden="true" class="svg-icon iconShield" width="18" height="18" viewBox="0 0 18 18"><path d="M2 4l7-3 7 3v5.02C16 13.69 10.69 17 9 17c-1.69 0-7-3.31-7-7.98V4zm6.14 5.2L7 12h4L9.86 9.2a.58.58 0 01.25-.59c.56-.36.89-.95.89-1.61 0-1.09-.94-2-2.02-2A2 2 0 007 7c0 .66.33 1.25.89 1.61.2.13.3.36.25.59z"></path></svg></div>
+                    <div>Window 7 以上</div>
+                </div>
+
+                <div class="d-flex mb12 ">
+                    <div class="mr12"><svg aria-hidden="true" class="svg-icon iconArchive" width="18" height="18" viewBox="0 0 18 18"><path d="M3 1a2 2 0 00-2 2v1h16V3a2 2 0 00-2-2H3zM2 5h14v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm4 3a1 1 0 001 1h4a1 1 0 100-2H7a1 1 0 00-1 1z"></path></svg></div>
+                    <div>提供 DLL 資源庫程式</div>
+                </div>
+
+
+                <div class="mt-auto">
+                    <a href="#" class="s-btn mt24 d-block as-stretch fs-body2 px32 bar-md p-ff-source-bold bg-black-100 h:bg-blue-500 fc-black-750 h:fc-white h:bg-blue-500 h:fc-white" data-ga="[&quot;teams landing&quot;,&quot;plans menu click&quot;,&quot;Start your free trial&quot;,null,null]">
+                        獲得與購買
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </td>
+    <td valign="top" align="center" style="padding:10px">
+        <div class="px16 py8 bg-black-075 d:bg-black-025 bl bt br bc-black-100 btr-lg bs-sm fs-body2 mx16 p-ff-source-bold fs-body1">
+            <svg aria-hidden="true" class="float-right svg-icon iconIndustry" width="18" height="18" viewBox="0 0 18 18"><path d="M10 16v-4H8v4H2V4c0-1.1.9-2 2-2h6a2 2 0 012 2v2h2a2 2 0 012 2v8h-6zM4 4v2h2V4H4zm0 4v2h2V8H4zm4-4v2h2V4H8zm0 4v2h2V8H8zm-4 4v2h2v-2H4zm8 0v2h2v-2h-2zm0-4v2h2V8h-2z"></path></svg>
+            MOST USED
+        </div>
+        <div class="p24 h100 bg-black-025 ba bc-black-100 bar-lg p-bs-wrapper fs-body2 d-flex fd-column">           
+            <h2 class="px8 py4 as-start bar-sm bg-black-150 fc-black-750 fs-body3 p-ff-roboto-slab">
+                方案 B
+            </h2>
+            <p class="h32 mb24">
+                單人版/每季(三個月)
+            </p>
+
+            <div class="bb bc-black-075 pb24 mb24 grid">
+                <div class="grid--cell">
+                    <div class="p-ff-roboto-slab-bold fs-headline2 p-font-smooth lh-xs pt12 mb6 ws-nowrap">
+                        <span class="js-billed-yearly">
+                            NT. 15,300
+                        </span>
+                        <span class="js-billed-monthly d-none">$7 USD</span>
+                    </div>
+                    <div class="fc-black-350 fs-body2">
+                        per perspn / 3 months        </div>
+
+                </div>
+
+            </div>
+
+            <div class="d-flex mb12 ">
+                <div class="mr12"><svg aria-hidden="true" class="svg-icon iconCalendar" width="18" height="18" viewBox="0 0 18 18"><path d="M14 2h1a2 2 0 012 2v11a2 2 0 01-2 2H3a2 2 0 01-2-2V4c0-1.1.9-2 2-2h1V0h2v2h6V0h2v2zM3 6v9h12V6H3zm2 2h2v2H5V8zm0 3h2v2H5v-2zm3 0h2v2H8v-2zm3 0h2v2h-2v-2zm0-3h2v2h-2V8zM8 8h2v2H8V8z"></path></svg></div>
+                <div>每季(三個月)</div>
+            </div>
+
+            <div class="d-flex mb12 ">
+                <div class="mr12"><svg aria-hidden="true" class="svg-icon iconBullhorn" width="18" height="18" viewBox="0 0 18 18"><path d="M16 1a1 1 0 00-1 1v.38L5.3 6A2 2 0 004 7.9v2.22a2 2 0 001 1.74v1.65a3.5 3.5 0 006.87.95L15 15.63V16a1 1 0 102 0V2a1 1 0 00-1-1zM6.6 12.47l3.76 1.42a1.9 1.9 0 01-3.76-.39v-1.03zM2 6a1 1 0 00-1 1v4a1 1 0 102 0V7a1 1 0 00-1-1z"></path></svg></div>
+                <div>加密狗 Usb dongle one set</div>
+            </div>
+
+            <div class="d-flex mb12 ">
+                <div class="mr12"><svg aria-hidden="true" class="svg-icon iconShield" width="18" height="18" viewBox="0 0 18 18"><path d="M2 4l7-3 7 3v5.02C16 13.69 10.69 17 9 17c-1.69 0-7-3.31-7-7.98V4zm6.14 5.2L7 12h4L9.86 9.2a.58.58 0 01.25-.59c.56-.36.89-.95.89-1.61 0-1.09-.94-2-2.02-2A2 2 0 007 7c0 .66.33 1.25.89 1.61.2.13.3.36.25.59z"></path></svg></div>
+                <div>Window 7 以上</div>
+            </div>
+
+            <div class="d-flex mb12 ">
+                <div class="mr12"><svg aria-hidden="true" class="svg-icon iconArchive" width="18" height="18" viewBox="0 0 18 18"><path d="M3 1a2 2 0 00-2 2v1h16V3a2 2 0 00-2-2H3zM2 5h14v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm4 3a1 1 0 001 1h4a1 1 0 100-2H7a1 1 0 00-1 1z"></path></svg></div>
+                <div>提供 DLL 資源庫程式</div>
+            </div>
+
+
+            <div class="mt-auto">
+                <a href="#" class="s-btn mt24 d-block as-stretch fs-body2 px32 bar-md p-ff-source-bold bg-black-100 h:bg-blue-500 fc-black-750 h:fc-white h:bg-blue-500 h:fc-white" data-ga="[&quot;teams landing&quot;,&quot;plans menu click&quot;,&quot;Start your free trial&quot;,null,null]">
+                    獲得與購買
+                </a>
+            </div>
+
+        </div>
+    </td>
+    <td valign="top" align="center" style="padding:10px">
+        <div id="p-pricing-grid-basic" class="grid--cell d-flex fd-column wmn3 pt2 pb16">            
+            <div class="mt32 sm:mt0 h100 p24 bg-white d:p-bg-dark-tint ba bc-black-075 bar-lg bs-sm fs-body2 d-flex fd-column">
+                <h2 class="px8 py4 as-start bar-sm bg-black-150 fc-black-750 fs-body3 p-ff-roboto-slab">
+                    方案 C
+                </h2>
+                <p class="h32 mb24">
+                    單人版/每年(one year)
+                </p>
+
+                <div class="bb bc-black-075 pb24 mb24 grid">
+                    <div class="grid--cell">
+                        <div class="p-ff-roboto-slab-bold fs-headline2 p-font-smooth lh-xs pt12 mb6 ws-nowrap">
+                            <span class="js-billed-yearly">
+                                NT. 60,000
+                            </span>
+                            <span class="js-billed-monthly d-none">$7 USD</span>
+                        </div>
+                        <div class="fc-black-350 fs-body2">
+                            per perspn / year        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="d-flex mb12 ">
+                    <div class="mr12"><svg aria-hidden="true" class="svg-icon iconCalendar" width="18" height="18" viewBox="0 0 18 18"><path d="M14 2h1a2 2 0 012 2v11a2 2 0 01-2 2H3a2 2 0 01-2-2V4c0-1.1.9-2 2-2h1V0h2v2h6V0h2v2zM3 6v9h12V6H3zm2 2h2v2H5V8zm0 3h2v2H5v-2zm3 0h2v2H8v-2zm3 0h2v2h-2v-2zm0-3h2v2h-2V8zM8 8h2v2H8V8z"></path></svg></div>
+                    <div>每年</div>
+                </div>
+
+                <div class="d-flex mb12 ">
+                    <div class="mr12"><svg aria-hidden="true" class="svg-icon iconBullhorn" width="18" height="18" viewBox="0 0 18 18"><path d="M16 1a1 1 0 00-1 1v.38L5.3 6A2 2 0 004 7.9v2.22a2 2 0 001 1.74v1.65a3.5 3.5 0 006.87.95L15 15.63V16a1 1 0 102 0V2a1 1 0 00-1-1zM6.6 12.47l3.76 1.42a1.9 1.9 0 01-3.76-.39v-1.03zM2 6a1 1 0 00-1 1v4a1 1 0 102 0V7a1 1 0 00-1-1z"></path></svg></div>
+                    <div>加密狗 Usb dongle one set</div>
+                </div>
+
+                <div class="d-flex mb12 ">
+                    <div class="mr12"><svg aria-hidden="true" class="svg-icon iconShield" width="18" height="18" viewBox="0 0 18 18"><path d="M2 4l7-3 7 3v5.02C16 13.69 10.69 17 9 17c-1.69 0-7-3.31-7-7.98V4zm6.14 5.2L7 12h4L9.86 9.2a.58.58 0 01.25-.59c.56-.36.89-.95.89-1.61 0-1.09-.94-2-2.02-2A2 2 0 007 7c0 .66.33 1.25.89 1.61.2.13.3.36.25.59z"></path></svg></div>
+                    <div>Window 7 以上</div>
+                </div>
+
+                <div class="d-flex mb12 ">
+                    <div class="mr12"><svg aria-hidden="true" class="svg-icon iconArchive" width="18" height="18" viewBox="0 0 18 18"><path d="M3 1a2 2 0 00-2 2v1h16V3a2 2 0 00-2-2H3zM2 5h14v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm4 3a1 1 0 001 1h4a1 1 0 100-2H7a1 1 0 00-1 1z"></path></svg></div>
+                    <div>提供 DLL 資源庫程式</div>
+                </div>
+
+
+                <div class="mt-auto">
+                    <a href="#" class="s-btn mt24 d-block as-stretch fs-body2 px32 bar-md p-ff-source-bold bg-black-100 h:bg-blue-500 fc-black-750 h:fc-white h:bg-blue-500 h:fc-white" data-ga="[&quot;teams landing&quot;,&quot;plans menu click&quot;,&quot;Start your free trial&quot;,null,null]">
+                        獲得與購買
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </td>
+
+</table>

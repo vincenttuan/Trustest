@@ -1,0 +1,24 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<style>
+    td {
+        vertical-align: top;
+    }
+</style>
+<div id="demo_anchor" style="height:30px"></div>
+<table border="0">
+    <td valign="top" align="center">
+        <img width="60%" src="images/developer/demo2.jpg" id="mainPhoto">
+    </td>
+</table>
+<div style="text-align: center;">
+    <script>
+        var n = 3;
+        for (var i = 1; i <= n; i++) {
+            document.writeln('<span style="padding:10px">');
+            document.writeln('<img src="images/circle.png" width="20" onclick="changeImage(\'demo' + i + '.jpg\'); this.src = \'images/circle2.png\'">');
+            document.writeln('</span>');
+        }
+    </script>
+</div>
+<div style="height:30px"></div>

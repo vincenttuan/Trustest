@@ -1,0 +1,32 @@
+<%@ page pageEncoding="UTF-8" %>
+<style>
+    td {
+        vertical-align: middle;
+    }
+</style>
+<table class="pure-table">
+    <tr>
+        <td valign="top" align="center">
+            <h1>成功案例</h1>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <table>
+                <tr>
+                    <td><img src="images/acer.png" width="300"></td>
+                    <td><img src="images/google.png" width="300"></td>
+                    <td><img src="images/和碩.png" width="300"></td>
+                    <td><img src="images/廣達.jpg" width="300"></td>
+                </tr>
+                <tr>
+                    <td><img src="images/鴻海.jpg" width="300"></td>
+                    <td><img src="images/askey.png" width="300"></td>
+                    <td><img src="images/motorola.png" width="300"></td>
+                    <td><img src="images/zebera.png" width="300"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+</table>

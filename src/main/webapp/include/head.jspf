@@ -1,0 +1,133 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Trustest Camera - Where Developers Use, Learn, Share, &amp; Build Careers</title>
+    <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196">
+    <link rel="apple-touch-icon" href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a"> 
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="https://stackoverflow.com/opensearch.xml">
+    <meta name="description" content="Stack Overflow is the largest, most trusted online community for developers to learn, share​ ​their programming ​knowledge, and build their careers.">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://stackoverflow.com/">
+    <meta property="og:site_name" content="Stack Overflow">
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com">
+    <meta name="twitter:title" property="og:title" itemprop="name" content="Stack Overflow - Where Developers Learn, Share, &amp; Build Careers">
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Stack Overflow | The World’s Largest Online Community for Developers">
+    <script src="./stack_files/rules-p-c1rF4kxgLUzNc.js" async=""></script><script async="" src="./stack_files/quant.js"></script><script async="" src="./stack_files/beacon.js"></script><script async="" src="./stack_files/analytics.js"></script><script src="./stack_files/jquery.min.js"></script>
+    <script src="./stack_files/stub.en.js"></script>
+    <link rel="stylesheet" type="text/css" href="./stack_files/stacks.css">
+    <link rel="stylesheet" type="text/css" href="./stack_files/primary.css">
+    <link rel="stylesheet" type="text/css" href="./stack_files/product.css">
+    <link rel="alternate" type="application/atom+xml" title="Feed of recent questions" href="https://stackoverflow.com/feeds">
+    <link rel="stylesheet" type="text/css" href="./stack_files/channels.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css">
+    <script>
+        StackExchange.init({
+            "locale": "en",
+            "serverTime": 1613715689,
+            "routeName": "Home/Index",
+            "stackAuthUrl": "https://stackauth.com",
+            "networkMetaHostname": "meta.stackexchange.com",
+            "site": {
+                "name": "Stack Overflow",
+                "description": "Q&A for professional and enthusiast programmers",
+                "isNoticesTabEnabled": true,
+                "enableNewTagCreationWarning": true,
+                "insertSpaceAfterNameTabCompletion": false,
+                "id": 1,
+                "cookieDomain": ".stackoverflow.com",
+                "childUrl": "https://meta.stackoverflow.com",
+                "styleCodeWithHighlightjs": true,
+                "negativeVoteScoreFloor": null,
+                "enableSocialMediaInSharePopup": true,
+                "protocol": "https"
+            },
+            "user": {
+                "fkey": "f52e686d8489e30d77477651a9c94c0efb3b7c99b599800d21c35150d5d7515f",
+                "tid": "e26c190d-0351-7ff5-4b6b-415f6c584e98",
+                "rep": 0,
+                "isAnonymous": true,
+                "isAnonymousNetworkWide": true
+            },
+            "events": {
+                "postType": {"question": 1},
+                "postEditionSection": {
+                    "title": 1,
+                    "body": 2,
+                    "tags": 3
+                }
+            },
+            "story": {
+                "minCompleteBodyLength": 75,
+                "likedTagsMaxLength": 300,
+                "dislikedTagsMaxLength": 300
+            },
+            "jobPreferences": {
+                "maxNumDeveloperRoles": 2,
+                "maxNumIndustries": 4
+            },
+            "svgIconPath": "https://cdn.sstatic.net/Img/stacks-icons",
+            "svgIconHash": "5acef7872715"
+        },
+                {
+                    "userProfile": {
+                        "openGraphAPIKey": "4a307e43-b625-49bb-af15-ffadf2bda017"
+                    },
+                    "userMessaging": {
+                        "showNewFeatureNotice": true
+                    },
+                    "tags": {},
+                    "subscriptions": {"defaultMaxTrueUpSeats": 1000},
+                    "snippets": {
+                        "renderDomain": "stacksnippets.net",
+                        "snippetsEnabled": true
+                    },
+                    "slack": {
+                        "sidebarAdDismissCookie": "slack-sidebar-ad",
+                        "sidebarAdDismissCookieExpirationDays": 60.0
+                    },
+                    "site": {
+                        "allowImageUploads": true,
+                        "enableImgurHttps": true,
+                        "enableUserHovercards": true,
+                        "forceHttpsImages": true,
+                        "styleCode": true
+                    },
+                    "intercom": {
+                        "appId": "inf0secd",
+                        "hostBaseUrl": "https://stacksnippets.net"
+                    },
+                    "paths": {},
+                    "monitoring": {
+                        "clientTimingsAbsoluteTimeout": 30000,
+                        "clientTimingsDebounceTimeout": 1000
+                    },
+                    "mentions": {"maxNumUsersInDropdown": 50},
+                    "markdown": {"enableTables": true},
+                    "legal": {
+                        "oneTrustConfigId": "c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},
+                    "flags": {
+                        "allowRetractingCommentFlags": true,
+                        "allowRetractingFlags": true
+                    },
+                    "comments": {},
+                    "accounts": {
+                        "currentPasswordRequiredForChangingStackIdPassword": true
+                    }
+                });
+        StackExchange.using("gps", function () {
+            StackExchange.gps.init(true);
+        });
+        StackExchange.ready(function () {
+            StackExchange.topbar.init();
+        });
+        //StackExchange.scrollPadding.setPaddingTop(50, 10);
+    </script>
+    <noscript id="noscript-css"><style>body,.top-bar{margin-top:1.9em}</style></noscript>
+    <script async="" src="./stack_files/full-anon.en.js"></script>
+
+</head>

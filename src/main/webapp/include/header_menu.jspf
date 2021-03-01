@@ -1,0 +1,116 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<!-- header -->
+<header class="top-bar js-top-bar top-bar__network _fixed">
+    <div class="wmx12 mx-auto grid ai-center h100" role="menubar">
+        <div class="-main grid--cell">
+            <a href="#" class="left-sidebar-toggle p0 ai-center jc-center js-left-sidebar-toggle" role="menuitem" aria-haspopup="true" aria-controls="left-sidebar" aria-expanded="false"><span class="ps-relative"></span></a>
+            <div class="topbar-dialog leftnav-dialog js-leftnav-dialog dno">
+                <div class="left-sidebar js-unpinned-left-sidebar" data-is-here-when="sm md lg" id="left-sidebar">
+                    <div class="left-sidebar--sticky-container js-sticky-leftnav">
+                        <nav role="navigation">
+                            <ol class="nav-links">
+                                <li class="nav-links">
+                                    <a href="/Trustest" title="回首頁" class="pl8 js-gps-track nav-links--link" data-gps-track="top_nav.click({is_current:true, location:1, destination:8})" aria-controls="" data-controller="" data-s-popover-placement="right">
+                                        <div class="grid ai-center">
+                                            <div class="grid--cell truncate">
+                                                首頁 Home
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-links">
+                                    <a style="cursor: default" href="#" class="pl8 js-gps-track nav-links--link" data-gps-track="top_nav.click({is_current:true, location:1, destination:8})" aria-controls="" data-controller="" data-s-popover-placement="right">
+                                        <div class="grid ai-center">
+                                            <div class="grid--cell truncate">
+                                                介紹 Public
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <ol>
+                                        <li><a href="#" title="相機檢測介紹">相機檢測 Trustest camera</a></li>
+                                        <!--<li><a href="#" title="使用者">Users</a></li>-->
+                                    </ol>
+                                </li>
+                                <li class="nav-links">
+                                    <a style="cursor: default" href="#" class="pl8 js-gps-track nav-links--link" data-gps-track="top_nav.click({is_current:true, location:1, destination:8})" aria-controls="" data-controller="" data-s-popover-placement="right">
+                                        <div class="grid ai-center">
+                                            <div class="grid--cell truncate">
+                                                找解決方案 Find a solution
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <ol>
+                                        <li><a href="#" title="解決方案">解決方案 Solution</a></li>
+                                        <li><a href="#" title="專案項目">專案項目 Projects</a></li>
+                                    </ol>
+                                </li>
+                                <li class="nav-links">
+                                    <a href="#" title="公司簡介" class="pl8 js-gps-track nav-links--link" data-gps-track="top_nav.click({is_current:true, location:1, destination:8})" aria-controls="" data-controller="" data-s-popover-placement="right">
+                                        <div class="grid ai-center">
+                                            <div class="grid--cell truncate">
+                                                公司簡介 About
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-links">
+                                    <a href="#" title="產品與價格" class="pl8 js-gps-track nav-links--link" data-gps-track="top_nav.click({is_current:true, location:1, destination:8})" aria-controls="" data-controller="" data-s-popover-placement="right">
+                                        <div class="grid ai-center">
+                                            <div class="grid--cell truncate">
+                                                產品與價格 Products / Pricing
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ol class="list-reset grid gs4" role="presentation">
+            <li class="grid--cell md:d-none">
+                <a href="#" class="-marketing-link js-gps-track" data-gps-track="top_nav.products.click({location:1, destination:7})" data-ga="[&quot;top navigation&quot;,&quot;about menu click&quot;,null,null,null]">
+                    公司簡介 About
+                </a>
+            </li>
+            <li class="grid--cell">
+                <a href="#" class="-marketing-link js-gps-track js-products-menu" aria-controls="products-popover" data-controller="s-popover" data-action="s-popover#toggle" data-s-popover-placement="bottom" data-s-popover-toggle-class="is-selected" data-gps-track="top_nav.products.click({location:1, destination:1})" data-ga="[&quot;top navigation&quot;,&quot;products menu click&quot;,null,null,null]">
+                    產品與價格 Products / Pricing
+                </a>
+            </li>
+        </ol>
+        <div style="width: 600px">
+            <img src="images/logo3.png" width="300" style="display: block;margin-left: auto;margin-right: auto;">
+        </div>
+        <form id="search" role="search" action="#" class="grid--cell fl-grow1 searchbar px12 js-searchbar " autocomplete="off">
+            <div class="ps-relative">
+                <input name="q" type="text" placeholder="Search…" value="" autocomplete="off" maxlength="240" class="s-input s-input__search js-search-field " aria-label="Search" aria-controls="top-search" data-controller="s-popover" data-action="focus-&gt;s-popover#show" data-s-popover-placement="bottom-start">
+                <svg aria-hidden="true" class="s-input-icon s-input-icon__search svg-icon iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M18 16.5l-5.14-5.18h-.35a7 7 0 10-1.19 1.19v.35L16.5 18l1.5-1.5zM12 7A5 5 0 112 7a5 5 0 0110 0z"></path></svg>
+                <div class="s-popover p0 wmx100 wmn4 sm:wmn-initial js-top-search-popover" id="top-search" role="menu">
+                    <div class="s-popover--arrow"></div>
+                    <div class="js-spinner p24 grid ai-center jc-center d-none">
+                        <div class="s-spinner s-spinner__sm fc-orange-400">
+                            <div class="v-visible-sr">Loading…</div>
+                        </div>
+                    </div>
+                    <span class="v-visible-sr js-screen-reader-info"></span>
+                    <div class="js-ac-results overflow-y-auto hmx3 d-none"></div>
+                    <div class="js-search-hints" aria-describedby="Tips for searching"></div>
+                </div>
+            </div>
+        </form>
+        <ol class="overflow-x-auto ml-auto -secondary grid ai-center list-reset h100 user-logged-out" role="presentation">
+            <li class="-item searchbar-trigger"><a href="https://stackoverflow.com/#" class="-link js-searchbar-trigger" role="button" aria-label="Search" aria-haspopup="true" aria-controls="search" title="Click to show search"><svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M18 16.5l-5.14-5.18h-.35a7 7 0 10-1.19 1.19v.35L16.5 18l1.5-1.5zM12 7A5 5 0 112 7a5 5 0 0110 0z"></path></svg></a></li>
+            <li class="-ctas">
+                <a href="https://www.facebook.com/groups/872115486937640" target="_blank">
+                    <svg width="36" height="36" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 112.196 112.196" style="enable-background:new 0 0 112.196 112.196;" xml:space="preserve"><circle style="fill:#3B5998;" cx="56.098" cy="56.098" r="56.098"/><path style="fill:#FFFFFF;" d="M70.201,58.294h-10.01v36.672H45.025V58.294h-7.213V45.406h7.213v-8.34c0-5.964,2.833-15.303,15.301-15.303L71.56,21.81v12.51h-8.151c-1.337,0-3.217,0.668-3.217,3.513v7.585h11.334L70.201,58.294z"/></svg>
+                </a>
+                <a href="https://line.me/">
+                    <svg enable-background="new 0 0 24 24" height="36" viewBox="0 0 24 24" width="36" xmlns="http://www.w3.org/2000/svg"><path d="m12 .5c-6.615 0-12 4.398-12 9.803 0 4.841 4.27 8.897 10.035 9.668.391.083.923.26 1.058.594.12.303.079.771.038 1.087l-.164 1.026c-.045.303-.24 1.193 1.049.649 1.291-.542 6.916-4.104 9.436-7.019 1.724-1.9 2.548-3.847 2.548-6.005 0-5.405-5.385-9.803-12-9.803zm-4.697 13.017h-2.386c-.345 0-.63-.287-.63-.633v-4.801c0-.347.285-.634.63-.634.348 0 .63.287.63.634v4.167h1.756c.348 0 .629.285.629.634 0 .346-.282.633-.629.633zm2.466-.633c0 .346-.282.633-.631.633-.345 0-.627-.287-.627-.633v-4.801c0-.347.282-.634.63-.634.346 0 .628.287.628.634zm5.741 0c0 .272-.174.513-.432.6-.064.021-.133.031-.199.031-.211 0-.391-.091-.51-.252l-2.443-3.338v2.958c0 .346-.279.633-.631.633-.346 0-.626-.287-.626-.633v-4.8c0-.272.173-.513.43-.599.06-.023.136-.033.194-.033.195 0 .375.105.495.256l2.462 3.351v-2.975c0-.347.282-.634.63-.634.345 0 .63.287.63.634zm3.855-3.035c.349 0 .63.287.63.635 0 .347-.281.634-.63.634h-1.755v1.132h1.755c.349 0 .63.285.63.634 0 .346-.281.633-.63.633h-2.386c-.345 0-.627-.287-.627-.633v-4.801c0-.347.282-.634.63-.634h2.386c.346 0 .627.287.627.634 0 .351-.281.634-.63.634h-1.755v1.132z" fill="#4caf50"/></svg>
+                </a>
+            </li>
+        </ol>
+    </div>
+</header>
