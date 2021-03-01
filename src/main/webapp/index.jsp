@@ -5,8 +5,7 @@
     <%@include file="include/head.jspf" %>
 
     <body class="home-page unified-theme">
-        <div id="notify-container"></div>
-        <div id="custom-header"></div>
+        
         <!-- header -->
         <%@include file="include/header_menu.jspf" %>
         

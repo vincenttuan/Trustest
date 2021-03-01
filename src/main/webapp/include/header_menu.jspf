@@ -1,6 +1,8 @@
 <%-- any content can be specified here e.g.: --%>
 <%@ page pageEncoding="UTF-8" %>
 <!-- header -->
+<div id="notify-container"></div>
+<div id="custom-header"></div>
 <header class="top-bar js-top-bar top-bar__network _fixed">
     <div class="wmx12 mx-auto grid ai-center h100" role="menubar">
         <div class="-main grid--cell">
