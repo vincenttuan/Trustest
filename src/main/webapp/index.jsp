@@ -5,25 +5,35 @@
     <%@include file="include/head.jspf" %>
 
     <body class="home-page unified-theme">
-        
+
+
         <!-- header -->
         <%@include file="include/header_menu.jspf" %>
-        
+
         <!-- Slogan -->
-        <div style="display:flex;align-items:center;justify-content:center;height: 100vh;">
-        <%@include file="include/main_slogan.jspf" %>
+        <div style="background-color: #ffcf10;display:flex;align-items:center;justify-content:center;height: 100vh;">
+            <%@include file="include/main_slogan.jspf" %>
         </div>
+        
         <!-- DM -->
-        <%@include file="include/main_dm.jspf" %>
+        <div style="background-color: #cfeafe;display:flex;align-items:center;justify-content:center;height: 100vh;">
+            <%@include file="include/main_dm.jspf" %>
+        </div>
         
         <!-- Part I -->
-        <%@include file="include/main_part1.jspf" %>
+        <div style="background-color: #dddddd;display:flex;align-items:center;justify-content:center;height: 100vh;">
+            <%@include file="include/main_part1.jspf" %>
+        </div>
         
         <!-- Part II -->
-        <%@include file="include/main_part2.jspf" %>
+        <!--
+        <\%@include file="include/main_part2.jspf" %\>
+        -->
 
         <!-- Part III -->
-        <%@include file="include/main_part3.jspf" %>
+        <div style="background-color: #00ffff;display:flex;align-items:center;justify-content:center;height: 100vh;">
+            <%@include file="include/main_part3.jspf" %>
+        </div>
 
         <!-- Footer -->
         <%@include file="include/footer.jspf" %>
