@@ -12,6 +12,9 @@
         <!-- Slogan -->
         <%@include file="include/main_slogan.jspf" %>
         
+        <!-- DM -->
+        <%@include file="include/main_dm.jspf" %>
+        
         <!-- Part I -->
         <%@include file="include/main_part1.jspf" %>
         
