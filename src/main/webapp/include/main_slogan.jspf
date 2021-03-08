@@ -22,7 +22,7 @@
     }
 </script>
 <div class="center">
-    <p>Camera Inspection Expert</p>
+    <p>R&D,產線影像品質測試免煩惱，快找創視特</p>
     <div class="grid jc-center ai-center fs-body2 sm:fd-column">
         <a class="grid--cell bc-orange-400 ba fc-orange-400 bg-white d:bg-black-900 py12 px24 bar-sm js-scroll-link js-gps-track" data-gps-track="product_homepage.hero.click({ cta: 'For developers' })" href="#demo_anchor" onclick="switchImage(0);">
             For developer
