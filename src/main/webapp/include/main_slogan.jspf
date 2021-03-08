@@ -21,36 +21,40 @@
         location.href = "#demo_anchor";
     }
 </script>
+
 <div class="center">
     <p>R&D 產線影像品質測試免煩惱，快找創視特</p>
-    <table>
+
+    <table border="0" width="100%">
         <tr>
-            <td style="font-size:20px">
+            <td align="left" style="font-size:20px" width="50%">
                 TRUSTEST - Total Solution of Camera Testing
                 鏡頭模組檢測軟體特點:
-                軟體可以分為RD版本&試
-                RD版本可以先免費試用1個月
-                軟體可買可租
-                軟體測試項目與測試規格滿足國際規範
-                軟體由台灣自行研發&自製自造,易於溝通
-                軟體使用上簡便易懂,優於外國品牌
-                本產品共有4個影像檔,用來說明RD版本的使用方式
-                本產品共有3個執行檔,用來執行RD版本
-                本產品共有3個pdf.file &lt;Trustest Camera IQ Test Spec for all.pdf&gt;
-                &lt;Trustest User Guide.pdf&gt; &lt;How to use Trustest.pdf&gt;
-                可客製化軟,用於手機、平板、眼鏡上的鏡頭模組IQt
-                可轉化為產線上用的鏡頭模組IQtestn自動化設備(tck
-                快速、精、簡便、省時、直觀、好懂
-                產品容易上手使用
-                提高客戶生產效率與產品品質
-                經Apple、Google、Motorola、Zebra認證
-                使設計規範與生產線上的品質檢測規範相統一
-                通過公平一致的檢測方法管理多個不同的供應商,有共通語言
-                鏡頭模組來料檢驗,可減少組裝損失
-                已通過嚴格的重複性測試(GR&R),已在嚴格的六差標準生產供應鏈
-                內通過數千萬台設備的生產實踐中驗證。
+                <ol>
+                    <li>軟體可以分為RD版本&試</li>
+                    <li>RD版本可以先免費試用1個月</li>
+                    <li>軟體可買可租</li>
+                    <li>軟體測試項目與測試規格滿足國際規範</li>
+                    <li>軟體由台灣自行研發&自製自造,易於溝通</li>
+                    <li>軟體使用上簡便易懂,優於外國品牌</li>
+                    <li>本產品共有4個影像檔,用來說明RD版本的使用方式</li>
+                    <li>本產品共有3個執行檔,用來執行RD版本</li>
+                    <li>本產品共有3個pdf.file &lt;Trustest Camera IQ Test Spec for all.pdf&gt;</li>
+                    <li>&lt;Trustest User Guide.pdf&gt; &lt;How to use Trustest.pdf&gt;</li>
+                    <li>可客製化軟,用於手機、平板、眼鏡上的鏡頭模組IQt</li>
+                    <li>可轉化為產線上用的鏡頭模組IQtestn自動化設備(tck</li>
+                    <li>快速、精、簡便、省時、直觀、好懂</li>
+                    <li>產品容易上手使用</li>
+                    <li>提高客戶生產效率與產品品質</li>
+                    <li>經Apple、Google、Motorola、Zebra認證</li>
+                    <li>使設計規範與生產線上的品質檢測規範相統一</li>
+                    <li>通過公平一致的檢測方法管理多個不同的供應商,有共通語言</li>
+                    <li>鏡頭模組來料檢驗,可減少組裝損失</li>
+                    <li>已通過嚴格的重複性測試(GR&R),已在嚴格的六差標準生產供應鏈</li>
+                    <li>內通過數千萬台設備的生產實踐中驗證。</li>
+                </ol>
             </td>
-            <td style="font-size:20px">
+            <td align="left" style="font-size:20px" width="50%">
                 TRUSTEST - Total Solution
                 of Camera Testing
                 產線版本StrongPoints
