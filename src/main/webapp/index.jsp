@@ -10,8 +10,9 @@
         <%@include file="include/header_menu.jspf" %>
         
         <!-- Slogan -->
+        <div style="display:flex;align-items:center;justify-content:center;height: 100vh;">
         <%@include file="include/main_slogan.jspf" %>
-        
+        </div>
         <!-- DM -->
         <%@include file="include/main_dm.jspf" %>
         
